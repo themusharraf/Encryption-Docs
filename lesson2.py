@@ -1,32 +1,37 @@
 from cryptography.fernet import Fernet
 
-# we will be encrypting the below string.
+# biz quyidagi qatorni shifrlaymiz. # noqa
 message = "hello geeks"
 
-# generate a key for encryption and decryption
-# You can use fernet to generate
-# the key or use random key generator
-# here I'm using fernet to generate key
+"""
+shifrlash va shifrni ochish uchun kalit yaratish
+Yaratish uchun fernetdan foydalanishingiz mumkin
+kalit yoki tasodifiy kalit generatoridan foydalaning
+bu yerda men kalit yaratish uchun fernetdan foydalanmoqdaman
+"""
 
 key = Fernet.generate_key()
 
-# Instance the Fernet class with the key
-
+# Kalit bilan Fernet sinfiga misol keltiring # noqa
 fernet = Fernet(key)
 
-# then use the Fernet class instance
-# to encrypt the string string must
-# be encoded to byte string before encryption
+"""
+keyin Fernet sinf misolidan foydalaning
+qatorni shifrlash kerak
+shifrlashdan oldin bayt qatoriga kodlangan bo'lishi kerak
+"""
 encMessage = fernet.encrypt(message.encode())
 
 print("original string: ", message)
 print("encrypted string: ", encMessage)
 
-# decrypt the encrypted string with the
-# Fernet instance of the key,
-# that was used for encrypting the string
-# encoded byte string is returned by decrypt method,
-# so decode it to string with decode methods
+"""
+bilan shifrlangan satr shifrini hal qilish Kalitning 
+Fernet namunasi,
+bu satrni shifrlash uchun ishlatilgan
+kodlangan bayt satri shifrni ochish usuli bilan qaytariladi,
+shuning uchun uni dekodlash usullari bilan satrga dekodlang
+"""
 decMessage = fernet.decrypt(encMessage).decode()
 
 print("decrypted string: ", decMessage)
