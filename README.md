@@ -13,7 +13,15 @@ Eng asosiy darajada shifrlash ma'lumot yoki ma'lumotni matematik modellar yordam
 murakkabgacha bo'lishi mumkin va matematiklar va kompyuter olimlari iste'molchilar va korxonalar har kuni tayanadigan ma'lumotlar va ma'lumotlarni himoya qilish uchun ishlatiladigan shifrlashning o'ziga xos shakllarini ixtiro qildilar.
 
 ![difference-between-encryption-and-signing](https://github.com/themusharraf/Encryption/assets/122869450/7c873e4f-e99f-4625-abfb-68e6b773736b)
+# Shifrlash qanday ishlaydi
 
+![how-encryption-works](https://github.com/themusharraf/Encryption/assets/122869450/d3fcba0b-63f7-4672-aea4-a47cc2abe4c8)
+
+Shifrlash "to'g'ri matn" ni "shifrlangan matn" ga kodlash orqali ishlaydi, odatda algoritmlar deb nomlanuvchi kriptografik matematik modellardan foydalanish orqali. Ma'lumotni ochiq matnga qaytarish uchun shifrni ochish kaliti, raqamlar qatori yoki algoritm tomonidan yaratilgan paroldan foydalanish talab etiladi. Xavfsiz shifrlash usullari shunchalik ko'p kriptografik kalitlarga egaki, ruxsatsiz shaxs na qaysi biri to'g'ri ekanligini taxmin qila olmaydi, na har bir potentsial kombinatsiyani (qo'pol kuch hujumi sifatida tanilgan) sinab ko'rish orqali to'g'ri belgilar qatorini hisoblash uchun kompyuterdan foydalana olmaydi.
+
+Oddiy shifrlashning dastlabki namunalaridan biri Rim imperatori Yuliy Tsezar nomi bilan atalgan "Tsezar shifridir", chunki u shaxsiy yozishmalarida undan foydalangan. Usul almashtirish shifrining bir turi bo'lib, unda bir harf boshqa harf bilan almashtiriladi, alifbo bo'ylab ma'lum miqdordagi pozitsiyalar. Kodlangan matnning shifrini ochish uchun qabul qiluvchi alifboni to'rtta joyga pastga va chapga siljitish kabi shifr kalitini bilishi kerak ("chapga to'rt siljish"). Shunday qilib, har bir "E" "Y" ga aylanadi va hokazo.
+
+Zamonaviy kriptografiya ancha takomillashgan boʻlib, shifrni ochish kalitlari sifatida kompyuterda yaratilgan yuzlab (hatto minglab, baʼzi hollarda) belgilar qatorlaridan foydalanadi.
 
 # Shifrlash turlari
 
