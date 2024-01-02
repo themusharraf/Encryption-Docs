@@ -1,7 +1,7 @@
 import urllib.parse
 
 # Example String
-original_string = "admin@1234"
+original_string = "https://chat.openai.com/c/6a22d0d1-fb3c-448e-a09b-2a88ff96aa65"
 
 # Encode for URL
 encoded_string = urllib.parse.quote(original_string)
