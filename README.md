@@ -1,4 +1,5 @@
 # Encryption
+Welcome 2024 GitHub 
 
 Shifrlash nima?
 Shifrlash ma'lumotlarni o'g'irlash, o'zgartirish yoki buzishdan himoya qilish uchun ishlatiladi va ma'lumotlarni faqat noyob raqamli kalit bilan ochish mumkin bo'lgan maxfiy kodga aylantirish orqali ishlaydi.

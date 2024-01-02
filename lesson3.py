@@ -27,8 +27,7 @@ message = "hello geeks"
 # umumiy kalit qatori bo'lishi kerak # noqa
 # shifrlashdan oldin bayt qatoriga kodlash # noqa
 # kodlash usuli bilan # noqa
-encMessage = rsa.encrypt(message.encode(),
-						publicKey)
+encMessage = rsa.encrypt(message.encode(),publicKey)
 
 print("original string: ", message)
 print("encrypted string: ", encMessage)
