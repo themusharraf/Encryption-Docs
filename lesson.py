@@ -11,10 +11,10 @@ Misol:
 """
 
 
-text = "Hello, World!"
-encoded_data = text.encode('utf-8')
-decoded_data = encoded_data.decode('utf-8')
+password = "@admin1234"
+encoded_data = password.encode('utf-8').hex()
+# decoded_data = encoded_data.decode('utf-8')
 
-print(f"Original Text: {text}")
+print(f"Original Text: {password}")
 print(f"Encoded Text: {encoded_data}")
-print(f"Decoded Text: {decoded_data}")
+# print(f"Decoded Text: {decoded_data}")
