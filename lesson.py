@@ -1,7 +1,7 @@
 import urllib.parse
 
 # Example String
-original_string = "Hello, World!"
+original_string = "admin@1234"
 
 # Encode for URL
 encoded_string = urllib.parse.quote(original_string)
